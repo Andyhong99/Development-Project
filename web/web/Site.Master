@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="web.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="css/site.css" type="text/css" /> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+        <asp:Menu ID="nav" runat="server" Orientation="Horizontal" DataSourceID="SiteMapDataSource1"> </asp:Menu>
+
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </div>
+
+        <asp:ContentPlaceHolder ID="body" runat="server">
+            
+            
+
+            </asp:ContentPlaceHolder>
+
+         <div id="copyright">
+            <h4>All Right is reserved by Shinpyo Hong</h4>
+        
+        </div>
+    </form>
+</body>
+</html>

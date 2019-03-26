@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SportsStoreConnectionString1-Web.config Connection String" description="SportsStoreConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=ssserverdj.database.windows.net;Initial Catalog=SportsStore;User ID=doug;Password=Pa$$w0rd;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Shinpyo\.Hong\\Desktop\\Desktop\\web\\web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SportsStoreConnectionString1']/@connectionString" />
+  </parameter>
+</parameters>
